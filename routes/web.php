@@ -15,10 +15,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('/default', function(){
+Route::get('/upload_size', function(){
   return view('info');
-});
-
-Route::get('/change_size/6m', function(){
-  return view('change_size.info');
 });
