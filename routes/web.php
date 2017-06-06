@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('/default', function(){
   return view('info');
 });
+
+Route::get('/change_size/6m', function(){
+  return view('info');
+});
